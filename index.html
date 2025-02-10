@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./fontawesomeweb/css/all.css">
+    <link rel="icon" href="./images/icon.svg">
+</head>
+
+<body>
+    <header>
+        <nav class="container navbar">
+            <h1>TODO</h1>
+            <i class="fa-solid fa-moon"></i>
+            <i class="fa-solid fa-sun"></i>
+        </nav>
+        <form class=" form">
+            <span></span>
+            <input autofocus type="text" id="input" placeholder="Create a new todo…">
+        </form>
+
+    </header>
+    <main class="container toDoList">
+        <div class="todo_added_item"></div>
+        <div class="show_toDo_res">
+            <p><span id="item_counter">0</span> items left</p>
+            <div class="toDoList_links">
+                <ul>
+                    <li>All</li>
+                    <li>Active</li>
+                    <li>Completed</li>
+                </ul>
+            </div>
+            <button class="clearBtn">Clear Completed</button>
+        </div>
+    </main>
+    <div class="showModal">
+
+    </div>
+</body>
+<script src="./js/main.js"></script>
+
+</html>
